@@ -1,577 +1,580 @@
 \\Mock Maze Code
 
-Start = Room 1
-End = Room 114
-Current Room = Var to show current room
+Start = 1
+End = 114
+Current Room = 1
 
 RoomData : {
 	{ "room" = 1,
-	"desc": "???",
+	"desc": "Room 1",
 	"directions": {"North": 2}
-	}
+	},
 	
 	{ "room" = 2,
-	"desc": "???",
+	"desc": "Room 2",
 	"directions": {"North": 3, "South": 1}
-	}
+	},
 
 	{ "room" = 3,
-	"desc": "???",
+	"desc": "Room 3",
 	"directions": {"West": 4,"East": 5, "South": 2}
-	}	
+	},	
 
 	{ "room" = 4,
-	"desc": "???",
+	"desc": "Room 4",
 	"directions": {"East": 3}
-	}	
+	},	
 	
 	{ "room" = 5,
-	"desc": "???",
+	"desc": "Room 5",
 	"directions": {"North": 6, "West": 3}
-	}
+	},
 
 	{ "room" = 6,
-	"desc": "???",
+	"desc": "Room 6",
 	"directions": {"North": 7, "South": 5}
-	}
+	},
 	
 	{ "room" = 7,
-	"desc": "???",
+	"desc": "Room 7",
 	"directions": {"West": 72, "South": 6, "East": 8}
-	}
+	},
 		
 	{ "room" = 8,
-	"desc": "???",
+	"desc": "Room 8",
 	"directions": {"West": 7, "East": 9}
-	}
+	},
 		
 	{ "room" = 9,
-	"desc": "???",
+	"desc": "Room 9",
 	"directions": {"North": 10, "West": 8, "South": 13 }
-	}
+	},
 		
 	{ "room" = 10,
-	"desc": "???",
+	"desc": "Room 10",
 	"directions": {"North": 11, "South": 9}
-	}
+	},
 		
 	{ "room" = 11,
-	"desc": "???",
+	"desc": "Room 11",
 	"directions": {"East": 12, "South": 10}
-	}
+	},
 		
 	{ "room" = 12,
-	"desc": "???",
+	"desc": "Room 12",
 	"directions": {"West": 11}
-	}
+	},
 		
 	{ "room" = 13,
-	"desc": "???",
+	"desc": "Room 13",
 	"directions": {"North": 9, "South": 14}
-	}
+	},
 		
 	{ "room" = 14,
-	"desc": "???",
+	"desc": "Room 14",
 	"directions": {"North": 13, "East": 15}
-	}
+	},
 		
 	{ "room" = 15,
-	"desc": "???",
+	"desc": "Room 15",
 	"directions": {"West": 14, "South": 16}
-	}
+	},
 		
 	{ "room" = 16,
-	"desc": "???",
+	"desc": "Room 16",
 	"directions": {"North": 15, "South": 17}
-	}
+	},
 		
 	{ "room" = 17,
-	"desc": "???",
+	"desc": "Room 17",
 	"directions": {"North": 16, "South": 18}
-	}
+	},
 		
 	{ "room" = 18,
-	"desc": "???",
+	"desc": "Room 18",
 	"directions": {"North": 17, "West": 19}
-	}
+	},
 	
 	{ "room" = 19,
-	"desc": "???",
+	"desc": "Room 19",
 	"directions": {"East": 18, "South": 20}
-	}
+	},
 		
 	{ "room" = 20,
-	"desc": "???",
+	"desc": "Room 20",
 	"directions": {"North": 19, "South": 21}
-	}
+	},
 	
 	{ "room" = 21,
-	"desc": "???",
+	"desc": "Room 21",
 	"directions": {"North": 20, "South": 22 }
-	}
+	},
 	
 	{ "room" = 22,
-	"desc": "???",
+	"desc": "Room 22",
 	"directions": {"North": 21, "South: 23}
-	}
+	},
 		
 	{ "room" = 23,
-	"desc": "???",
+	"desc": "Room 23",
 	"directions": {"North": 22, "West": 24}
-	}
+	},
 	
 	{ "room" = 24,
-	"desc": "???",
+	"desc": "Room 24",
 	"directions": {"West": 25, "East": 23}
-	}
+	},
 		
 	{ "room" = 25,
-	"desc": "???",
+	"desc": "Room 25",
 	"directions": {"North": 27, "South": 26, "East": 23}
-	}
+	},
 	
 	{ "room" = 26,
-	"desc": "???",
+	"desc": "Room 26",
 	"directions": {"North": 25}
-	}
+	},
 	
 	{ "room" = 27,
-	"desc": "???",
+	"desc": "Room 27",
 	"directions": {"west": 27, "South": 26}
-	}
+	},
 	
 	{ "room" = 28,
-	"desc": "???",
+	"desc": "Room 28",
 	"directions": {"West": 30, "East": 27}
-	}
+	},
 	
 	{ "room" = 29,
-	"desc": "???",
+	"desc": "Room 29",
 	"directions": {"West": 34, "South": 30}
-	}
+	},
 	
 	{ "room" = 30,
-	"desc": "???",
+	"desc": "Room 30",
 	"directions": {"North": 29, "South": 31}
-	}
+	},
 	
 	{ "room" = 31,
-	"desc": "???",
+	"desc": "Room 31",
 	"directions": {"North": 30, "South": 32}
-	}
+	},
 		
 	{ "room" = 32,
-	"desc": "???",
+	"desc": "Room 32",
 	"directions": {"North": 31, "West": 33}
-	}
+	},
 	
 	{ "room" = 33,
-	"desc": "???",
+	"desc": "Room 33",
 	"directions": {"East": 32}
-	}
+	},
 	
 	{ "room" = 34,
-	"desc": "???",
+	"desc": "Room 34",
 	"directions": {"West": 35, "East": 29}
-	}
+	},
 	
 	{ "room" = 35,
-	"desc": "???",
+	"desc": "Room 35",
 	"directions": {"North": 39, "South": 36, "East": 34}
 	}
 	
 	{ "room" = 36,
-	"desc": "???",
+	"desc": "Room 36",
 	"directions": {"North":, "South":, "West":, "East":}
 	}
 	
 	{ "room" = 37,
-	"desc": "???",
+	"desc": "Room 37",
 	"directions": {"North": 36, "South":, "West": 38, "East":}
 	}
 	
 	{ "room" = 38,
-	"desc": "???",
+	"desc": "Room 38",
 	"directions": {"North":, "South":, "West": 89, "East": 37}
 	}
 	
 	{ "room" = 39,
-	"desc": "???",
+	"desc": "Room 39",
 	"directions": {"North":40, "South":35, "West":, "East":}
 	}
 	
 	{ "room" = 40,
-	"desc": "???",
+	"desc": "Room 40",
 	"directions": {"North":41, "South":39, "West":, "East":}
 	}
 	
 	{ "room" = 41,
-	"desc": "???",
+	"desc": "Room 41",
 	"directions": {"North":42, "South":40, "West":, "East":}
 	}
 	
 	{ "room" = 42,
-	"desc": "???",
+	"desc": "Room 42",
 	"directions": {"North":, "South":41, "West":43, "East":}
 	}
 	
 	{ "room" = 43,
-	"desc": "???",
+	"desc": "Room 43",
 	"directions": {"North":, "South":, "West":44, "East":42}
 	}
 	
 	{ "room" = 44,
-	"desc": "???",
+	"desc": "Room 44",
 	"directions": {"North":, "South":45, "West":, "East":43}
 	}
 	
 	{ "room" = 45,
-	"desc": "???",
+	"desc": "Room 45",
 	"directions": {"North":44, "South":, "West":46, "East":}
 	}
 	
 	{ "room" = 46,
-	"desc": "???",
+	"desc": "Room 46",
 	"directions": {"North":, "South":47, "West":, "East":45}
 	}
 	
 	{ "room" = 47,
-	"desc": "???",
+	"desc": "Room 47",
 	"directions": {"North":46, "South":, "West":48, "East":}
 	}
 	
 	{ "room" = 48,
-	"desc": "???",
+	"desc": "Room 48",
 	"directions": {"North":, "South":, "West":49, "East":47}
 	}
 	
 	{ "room" = 49,
-	"desc": "???",
+	"desc": "Room 49",
 	"directions": {"North":50, "South":, "West":75, "East":48}
 	}
 	
 	{ "room" = 50,
-	"desc": "???",
+	"desc": "Room 50",
 	"directions": {"North":51, "South":49, "West":, "East":}
 	}
 	
 	{ "room" = 51,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 51",
+	"directions": {"North":52, "South":50, "West":, "East":}
 	}
 	
 	{ "room" = 52,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 52",
+	"directions": {"North":, "South":, "West":53, "East":57}
 	}
 	
 	{ "room" = 53,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 53",
+	"directions": {"North":, "South":, "West":54, "East":52}
 	}
 	
 	{ "room" = 54,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 54",
+	"directions": {"North":, "South":55, "West":, "East":53}
 	}
 	
 	{ "room" = 55,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 55",
+	"directions": {"North":54, "South":, "West":56, "East":}
 	}
 	
 	{ "room" = 56,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 56",
+	"directions": {"North":, "South":, "West":, "East":55}
 	}
 	
 	{ "room" = 57,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 57",
+	"directions": {"North":59, "South":, "West":52, "East":58}
 	}
 	
 	{ "room" = 58,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 58",
+	"directions": {"North":, "South":, "West":57, "East":}
 	}
 	
 	{ "room" = 59,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 59",
+	"directions": {"North":60, "South":57, "West":, "East":}
 	}
 	
 	{ "room" = 60,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 60",
+	"directions": {"North":61, "South":59, "West":, "East":}
 	}
 	
 	{ "room" = 61,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 61",
+	"directions": {"North":62, "South":60, "West":, "East":}
 	}
 	
 	{ "room" = 62,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 62",
+	"directions": {"North":, "South":61, "West":63, "East":}
 	}
 	
 	{ "room" = 63,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 63",
+	"directions": {"North":, "South":, "West":, "East":62}
 	}
 	
 	{ "room" = 64,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 64",
+	"directions": {"North":, "South":, "West":60, "East":65}
 	}
 	
 	{ "room" = 65,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 65",
+	"directions": {"North":, "South":, "West":64, "East":66}
 	}
 	
 	{ "room" = 66,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 66",
+	"directions": {"North":, "South":, "West":65, "East":67}
 	}
 	
 	{ "room" = 67,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 67",
+	"directions": {"North":68, "South":73, "West":66, "East":}
 	}
 	
 	{ "room" = 68,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 68",
+	"directions": {"North":, "South":67, "West":, "East":69}
 	}
 	
 	{ "room" = 69,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 69",
+	"directions": {"North":, "South":, "West":68, "East":70}
 	}
 	
 	{ "room" = 70,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 70",
+	"directions": {"North":, "South":, "West":69, "East":71}
 	}
 	
 	{ "room" = 71,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 71",
+	"directions": {"North":, "South":72, "West":70, "East":}
 	}
 	
 	{ "room" = 72,
-	"desc": "???",
+	"desc": "Room 72",
 	"directions": {"North":, "South":, "West":, "East":}
 	}
 	
 	{ "room" = 73,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 73",
+	"directions": {"North":67, "South":, "West":, "East":74}
 	}
 	
 	{ "room" = 74,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 74",
+	"directions": {"North":, "South":, "West":73, "East":}
 	}
 	
 	{ "room" = 75,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 75",
+	"directions": {"North":, "South":, "West":76, "East":49}
 	}
 	
 	{ "room" = 76,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 76",
+	"directions": {"North":, "South":, "West":77, "East":75}
 	}
 	
 	{ "room" = 77,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 77",
+	"directions": {"North":, "South":78, "West":, "East":76}
 	}
 	
 	{ "room" = 78,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 78",
+	"directions": {"North":77, "South":79, "West":, "East":}
 	}
 	
 	{ "room" = 79,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 79",
+	"directions": {"North":78, "South":, "West":, "East":80}
 	}
 	
 	{ "room" = 80,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 80",
+	"directions": {"North":, "South":94, "West":79, "East":81}
 	}
 	
 	{ "room" = 81,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 81",
+	"directions": {"North":, "South":, "West":80, "East":82}
 	}
 	
 	{ "room" = 82,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 82",
+	"directions": {"North":, "South":83, "West":81, "East":}
 	}
 	
 	{ "room" = 83,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 83",
+	"directions": {"North":82, "South":, "West":, "East":84}
 	}
 	
 	{ "room" = 84,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 84",
+	"directions": {"North":, "South":, "West":83, "East":85}
 	}
 	
 	{ "room" = 85,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 85",
+	"directions": {"North":86, "South":, "West":84, "East":}
 	}
 	
 	{ "room" = 86,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 86",
+	"directions": {"North":, "South":85, "West":, "East":87}
 	}
 	
 	{ "room" = 87,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 87",
+	"directions": {"North":, "South":88, "West":86, "East":}
 	}
 	
 	{ "room" = 88,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 88",
+	"directions": {"North":87, "South":89, "West":, "East":}
 	}
 	
 	{ "room" = 89,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 89",
+	"directions": {"North":88, "South":90, "West":, "East":38}
 	}
 	
 	{ "room" = 90,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 90",
+	"directions": {"North":89, "South":91, "West":, "East":}
 	}
 	
 	{ "room" = 91,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 91",
+	"directions": {"North":90, "South":, "West":92, "East":}
 	}
 	
 	{ "room" = 92,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 92",
+	"directions": {"North":, "South":, "West":93, "East":91}
 	}
 	
 	{ "room" = 93,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 93",
+	"directions": {"North":, "South":100, "West":, "East":92}
 	}
 	
 	{ "room" = 94,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 94",
+	"directions": {"North":80, "South":95, "West":, "East":}
 	}
 	
 	{ "room" = 95,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 95",
+	"directions": {"North":94, "South":96, "West":, "East":}
 	}
 	
 	{ "room" = 96,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 96",
+	"directions": {"North":95, "South":, "West":, "East":97}
 	}
 	
 	{ "room" = 97,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 97",
+	"directions": {"North":, "South":98, "West":96, "East":}
 	}
 	
 	{ "room" = 98,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 98",
+	"directions": {"North":97, "South":99, "West":, "East":}
 	}
 	
 	{ "room" = 99,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 99",
+	"directions": {"North":98, "South":, "West":, "East":}
 	}
 	
 	{ "room" = 100,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 100",
+	"directions": {"North":93, "South":101, "West":, "East":}
 	}
 	
 	{ "room" = 101,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 101",
+	"directions": {"North":100, "South":102, "West":, "East":}
 	}
 	
 	{ "room" = 102,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 102",
+	"directions": {"North":101, "South":, "West":113, "East":103}
 	}
 	
 	{ "room" = 103,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 103",
+	"directions": {"North":, "South":, "West":102, "East":104}
 	}
 	
 	{ "room" = 104,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 104",
+	"directions": {"North":105, "South":, "West":103, "East":}
 	}
 	
 	{ "room" = 105,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 105",
+	"directions": {"North":, "South":104, "West":, "East":106}
 	}
 	
 	{ "room" = 106,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 106",
+	"directions": {"North":, "South":, "West":105, "East":107}
 	}
 	
 	{ "room" = 107,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 107",
+	"directions": {"North":108, "South":, "West":106, "East":}
 	}
 	
 	{ "room" = 108,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 108",
+	"directions": {"North":, "South":107, "West":, "East":109}
 	}
 	
 	{ "room" = 109,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 109",
+	"directions": {"North":, "South":, "West":108, "East":110}
 	}
 	
 	{ "room" = 110,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 110",
+	"directions": {"North":, "South":, "West":109, "East":111}
 	}
 	
 	{ "room" = 111,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 111",
+	"directions": {"North":, "South":112, "West":110, "East":}
 	}
 	
 	{ "room" = 112,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 112",
+	"directions": {"North":, "South":111, "West":, "East":}
 	}
 	
 	{ "room" = 113,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 113",
+	"directions": {"North":, "South":114, "West":, "East":102}
 	}
 	
 	{ "room" = 114,
-	"desc": "???",
-	"directions": {"North":, "South":, "West":, "East":}
+	"desc": "Room 114",
+	"directions": {"North":113, "South":"Out", "West":, "East":}
 	}
 }
+
+Print ("Welcome to the Dungeon Maze #1.  Can you find your way out??")
+Print ("You are in a room. {}".format()
